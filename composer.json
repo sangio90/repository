@@ -1,0 +1,17 @@
+{
+    "name": "sangio90/repository",
+    "authors": [
+        {
+            "name": "sangio90",
+            "email": "sangiovanni.guido@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/dbal": "2.5.4"
+    }
+//    "autoload": {
+//        "psr-0": {
+//            "Repository":
+//        }
+//    }
+}
