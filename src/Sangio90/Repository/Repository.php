@@ -22,13 +22,13 @@ class Repository
         $data = [];
         $values = [];
         foreach ($this->fields as $field) {
+
+            if ($field['id']) continue;
+
             $fieldName = $field['name'];
-            $data[] = [
-                $fieldName['name'] => '?'
-            ];
+            $data[$fieldName] = '?';
             $values[] = $row[$fieldName];
         }
         $queryBuilder->insert($this->tableName)->values($data)->setParameters($values)->execute();
     }
-
 }
