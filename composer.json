@@ -11,7 +11,7 @@
     },
     "autoload": {
         "psr-0": {
-            "sangio90\\": "src/"
+            "Sangio90\\Repository": "src/"
         }
     }
 }

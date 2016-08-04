@@ -1,5 +1,5 @@
 <?php
-namespace sangio90;
+namespace Sangio90\Repository;
 
 
 class Repository
