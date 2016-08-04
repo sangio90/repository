@@ -9,9 +9,4 @@
     "require": {
         "doctrine/dbal": "2.5.4"
     }
-//    "autoload": {
-//        "psr-0": {
-//            "Repository":
-//        }
-//    }
 }
