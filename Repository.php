@@ -1,4 +1,6 @@
 <?php
+namespace Sangio90;
+
 
 class Repository
 {
@@ -9,7 +11,7 @@ class Repository
     public function read()
     {
         $queryBuilder = $this->connection->createQueryBuilder();
-        $queryBuilder->select("*")->from("(" . $this->stmt . ") as result")->execute()->fetchAll();
+        return $queryBuilder->select("*")->from("(" . $this->stmt . ") as result")->execute()->fetchAll();
     }
 
 }
